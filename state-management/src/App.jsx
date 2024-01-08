@@ -1,10 +1,12 @@
+import Counter from './components/Counter';
 import StopWatch from './components/StopWatch';
+import Tooltip from './components/Tooltip';
 function App() {
   return <>
     {/* <StopWatch></StopWatch> */}
-    <p className="text-3xl font-bold underline">
-      Hello world!
-    </p>
+    <div className="p-16">
+      <Counter></Counter>
+    </div>
   </>
 }
 
