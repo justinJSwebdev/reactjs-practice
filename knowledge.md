@@ -14,16 +14,39 @@ useRef(){
 useState vs useRef : state change -> rerender , ref.current change -> no rerender
 scroll Height textArea
 unmount component with ref
+forwardRef
 }
-useContext();
+Portal -> ReactDOM.createPortal, getBoundingClientRect{
+Example: Tooltip, Dropdown
+}
+useContext(){
+problem: Prop Drilling (A->B->C->D)
+Step: Create Context -> Context Provider -> Wrap App component -> useContext
+}
+React Router(){
+Browser Router
+Link
+NavLink
+property{
+Replace
+End
+isActive
+}
+useParams
+Nested Route
+Outlet
+navigate
+query String handler 1. use Location -> useSearchParams
+}
+Redux , Redux Toolkit{
+} Done
+React Query Done  
 useReducer();
 useMemo();
+React memo
 useCallback();
 useLayoutEffect();
 useImperativeHandle();
-
-Redux Toolkit
-React Query
 
 - Components:
   Button
@@ -53,3 +76,5 @@ React Query
 - Routing
 - Validation
 - Handle Sign up / Sign In
+
+ErrorBoundary, PropTypes
